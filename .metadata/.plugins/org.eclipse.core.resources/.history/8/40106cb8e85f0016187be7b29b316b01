@@ -1,0 +1,13 @@
+public with sharing class apextest {
+
+
+    static testMethod void myTest() {
+
+       // Add test method logic using System.assert(), System.assertEquals()
+
+       // and System.assertNotEquals() here.
+
+     }
+
+}
+    

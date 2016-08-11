@@ -1,0 +1,101 @@
+<apex:page>
+<!-- Begin Default Content REMOVE THIS -->
+<h1>Congratulations</h1>
+		<apex:page controller="AccountViewerController">
+02
+   <apex:form>
+03
+      <apex:outputPanel id="resultTable">
+04
+         <apex:pageBlock>
+05
+            <apex:actionstatus id="status">
+06
+               <apex:facet name="start">
+07
+                  <div class="waitingSearchDiv" id="el_loading" style=
+08
+                        "background-color: #fbfbfb; height: 100%; opacity:0.65;
+09
+                        width:100%;">
+10
+                     <div class="waitingHolder" style="top: 74.2px; width: 91px;">
+11
+                        <img class="waitingImage" src="/img/loading.gif" title=
+12
+                           "Please Wait..." />
+13
+                        <span class="waitingDescription">Please Wait...</span>
+14
+                     </div>
+15
+                  </div>
+16
+               </apex:facet>
+17
+            </apex:actionstatus>
+18
+            <apex:pageBlockSection title="Special Accounts" collapsible="false">
+19
+               <apex:inputCheckbox value="{!removeCold}" label="Hide Cold Accounts">
+20
+                  <apex:actionSupport event="onchange" action="{!noOp}"
+21
+                     status="status" rerender="resultTable"/>
+22
+               </apex:inputCheckbox>
+23
+            </apex:pageBlockSection>
+24
+            <apex:pageBlockSection title="Scheduled Jobs" collapsible="false">
+25
+               <apex:pageBlockTable value="{!accountTable}" var="a"
+26
+                  id="thePageBlockTable">
+27
+                  <apex:column style="vertical-align:top">
+28
+                     <apex:outputField value="{!a.name}" />
+29
+                     <apex:facet name="header">Name</apex:facet>
+30
+                  </apex:column>
+31
+                  <apex:column>
+32
+                     <apex:outputField value="{!a.BillingCity}" />
+33
+                     <apex:facet name="header">City</apex:facet>
+34
+                  </apex:column>
+35
+                  <apex:column>
+36
+                     <apex:outputField value="{!a.BillingState}" />
+37
+                     <apex:facet name="header">State</apex:facet>
+38
+                  </apex:column>
+39
+                  <apex:column>
+40
+                     <apex:outputField value="{!a.Rating}" />
+41
+                     <apex:facet name="header">Rating</apex:facet>
+42
+                  </apex:column>
+43
+               </apex:pageBlockTable>
+44
+            </apex:pageBlockSection>
+45
+         </apex:pageBlock>
+46
+      </apex:outputPanel>
+47
+   </apex:form>
+48
+</apex:page>
+		
+<!-- End Default Content REMOVE THIS -->
+</apex:page>

@@ -1,0 +1,101 @@
+<apex:page>
+<!-- Begin Default Content REMOVE THIS -->
+<h1>Congratulations</h1>
+		<apex:page controller="AccountViewerController">
+
+   <apex:form>
+
+      <apex:outputPanel id="resultTable">
+
+         <apex:pageBlock>
+
+            <apex:actionstatus id="status">
+
+               <apex:facet name="start">
+
+                  <div class="waitingSearchDiv" id="el_loading" style=
+
+                        "background-color: #fbfbfb; height: 100%; opacity:0.65;
+
+                        width:100%;">
+
+                     <div class="waitingHolder" style="top: 74.2px; width: 91px;">
+
+                        <img class="waitingImage" src="/img/loading.gif" title=
+
+                           "Please Wait..." />
+
+                        <span class="waitingDescription">Please Wait...</span>
+
+                     </div>
+
+                  </div>
+
+               </apex:facet>
+
+            </apex:actionstatus>
+
+            <apex:pageBlockSection title="Special Accounts" collapsible="false">
+
+               <apex:inputCheckbox value="{!removeCold}" label="Hide Cold Accounts">
+
+                  <apex:actionSupport event="onchange" action="{!noOp}"
+
+                     status="status" rerender="resultTable"/>
+
+               </apex:inputCheckbox>
+
+            </apex:pageBlockSection>
+
+            <apex:pageBlockSection title="Scheduled Jobs" collapsible="false">
+
+               <apex:pageBlockTable value="{!accountTable}" var="a"
+
+                  id="thePageBlockTable">
+
+                  <apex:column style="vertical-align:top">
+
+                     <apex:outputField value="{!a.name}" />
+
+                     <apex:facet name="header">Name</apex:facet>
+
+                  </apex:column>
+
+                  <apex:column>
+
+                     <apex:outputField value="{!a.BillingCity}" />
+
+                     <apex:facet name="header">City</apex:facet>
+
+                  </apex:column>
+
+                  <apex:column>
+
+                     <apex:outputField value="{!a.BillingState}" />
+
+                     <apex:facet name="header">State</apex:facet>
+
+                  </apex:column>
+
+                  <apex:column>
+
+                     <apex:outputField value="{!a.Rating}" />
+
+                     <apex:facet name="header">Rating</apex:facet>
+
+                  </apex:column>
+
+               </apex:pageBlockTable>
+
+            </apex:pageBlockSection>
+
+         </apex:pageBlock>
+
+      </apex:outputPanel>
+
+   </apex:form>
+
+</apex:page>
+		
+<!-- End Default Content REMOVE THIS -->
+</apex:page>

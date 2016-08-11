@@ -1,0 +1,3 @@
+trigger Triggertest on Account (before insert) {
+    
+}
