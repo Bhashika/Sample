@@ -24,7 +24,7 @@ public with sharing class Add {
 	public pageReference add()
 	{
 		result = avalue + bvalue;
-		operation ='ADDITION';
+		operation ='ADDITION...........................';
 		return null;
    }
     
