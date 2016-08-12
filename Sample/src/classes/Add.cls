@@ -20,7 +20,12 @@ public with sharing class Add {
 		set;
 		get;
 	}
-	
+	public pageReference sub()
+	{
+		result = avalue - bvalue;
+		operation ='SUBSTRACTION...........................';
+		return null;
+   }
 	public pageReference add()
 	{
 		result = avalue + bvalue;
