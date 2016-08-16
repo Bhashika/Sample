@@ -22,6 +22,12 @@ public with sharing class Add {
 	}
 	public pageReference sub()
 	{
+		result = avalue * bvalue;
+		operation ='SUBSTRACTION....pull....and....now......push.........';
+		return null;
+   }
+	public pageReference sub()
+	{
 		result = avalue - bvalue;
 		operation ='SUBSTRACTION...........................';
 		return null;

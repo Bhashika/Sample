@@ -2979,3 +2979,290 @@ org.eclipse.jgit.errors.TransportException: https://github.com/Bhashika/from-Ecl
 
 !ENTRY org.eclipse.egit.ui 4 0 2016-08-11 23:42:00.550
 !MESSAGE Can't connect to any repository: https://github.com/Bhashika/from-Eclipse.git (https://github.com/Bhashika/from-Eclipse.git: error occurred during unpacking on the remote end: index-pack abnormal exit)
+!SESSION 2016-08-12 18:57:16.104 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_60-ea
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-08-12 18:57:29.104
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-08-12 18:58:14.425
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\bhashika.raurale'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 18:59:52.071
+!MESSAGE  WARN [2016-08-12 18:59:52,039] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 18:59:52.102
+!MESSAGE  WARN [2016-08-12 18:59:52,102] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 18:59:52.133
+!MESSAGE  WARN [2016-08-12 18:59:52,133] (ProjectController.java:getRemotePackageNames:930) - Unable to get project packages for project 'apex': Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 18:59:52.211
+!MESSAGE  WARN [2016-08-12 18:59:52,211] (ProjectOrganizationPage.java:prepareNextPage:263) - Unable to login: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:05:38.695
+!MESSAGE  WARN [2016-08-12 19:05:38,375] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:05:39.056
+!MESSAGE  WARN [2016-08-12 19:05:39,054] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:05:39.064
+!MESSAGE  WARN [2016-08-12 19:05:39,062] (ProjectController.java:getRemotePackageNames:930) - Unable to get project packages for project 'Apex': Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:05:39.167
+!MESSAGE  WARN [2016-08-12 19:05:39,165] (ProjectOrganizationPage.java:prepareNextPage:263) - Unable to login: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:06:29.802
+!MESSAGE  WARN [2016-08-12 19:06:29,787] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:06:29.834
+!MESSAGE  WARN [2016-08-12 19:06:29,834] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:06:29.849
+!MESSAGE  WARN [2016-08-12 19:06:29,849] (ProjectController.java:getRemotePackageNames:930) - Unable to get project packages for project 'Apex': Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:06:29.927
+!MESSAGE  WARN [2016-08-12 19:06:29,927] (ProjectOrganizationPage.java:prepareNextPage:263) - Unable to login: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:38:12.917
+!MESSAGE  WARN [2016-08-12 19:38:12,870] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:38:13.011
+!MESSAGE  WARN [2016-08-12 19:38:13,011] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:38:13.058
+!MESSAGE  WARN [2016-08-12 19:38:13,058] (ProjectController.java:getRemotePackageNames:930) - Unable to get project packages for project 'apex': Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:38:13.152
+!MESSAGE  WARN [2016-08-12 19:38:13,136] (ProjectOrganizationPage.java:prepareNextPage:263) - Unable to login: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:38:44.416
+!MESSAGE  WARN [2016-08-12 19:38:44,415] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:38:44.422
+!MESSAGE  WARN [2016-08-12 19:38:44,420] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:38:44.427
+!MESSAGE  WARN [2016-08-12 19:38:44,426] (ProjectController.java:getRemotePackageNames:930) - Unable to get project packages for project 'apex': Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:38:44.464
+!MESSAGE  WARN [2016-08-12 19:38:44,448] (ProjectOrganizationPage.java:prepareNextPage:263) - Unable to login: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:40:10.473
+!MESSAGE  WARN [2016-08-12 19:40:10,473] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:40:10.520
+!MESSAGE  WARN [2016-08-12 19:40:10,520] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:40:10.520
+!MESSAGE  WARN [2016-08-12 19:40:10,520] (ProjectController.java:getRemotePackageNames:930) - Unable to get project packages for project 'apex': Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:40:10.583
+!MESSAGE  WARN [2016-08-12 19:40:10,583] (ProjectOrganizationPage.java:prepareNextPage:263) - Unable to login: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:44:39.742
+!MESSAGE  WARN [2016-08-12 19:44:39,742] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:44:39.789
+!MESSAGE  WARN [2016-08-12 19:44:39,773] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:44:39.789
+!MESSAGE  WARN [2016-08-12 19:44:39,789] (ProjectController.java:getRemotePackageNames:930) - Unable to get project packages for project 'Apex': Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:44:39.851
+!MESSAGE  WARN [2016-08-12 19:44:39,851] (ProjectOrganizationPage.java:prepareNextPage:263) - Unable to login: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:48:03.858
+!MESSAGE  WARN [2016-08-12 19:48:03,858] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:48:03.921
+!MESSAGE  WARN [2016-08-12 19:48:03,921] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:48:03.921
+!MESSAGE  WARN [2016-08-12 19:48:03,921] (ProjectController.java:getRemotePackageNames:930) - Unable to get project packages for project 'Apex': Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 19:48:03.967
+!MESSAGE  WARN [2016-08-12 19:48:03,967] (ProjectOrganizationPage.java:prepareNextPage:263) - Unable to login: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:18:58.397
+!MESSAGE  WARN [2016-08-12 20:18:58,345] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:18:58.537
+!MESSAGE  WARN [2016-08-12 20:18:58,535] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:18:58.544
+!MESSAGE  WARN [2016-08-12 20:18:58,543] (ProjectController.java:getRemotePackageNames:930) - Unable to get project packages for project 'Apex': Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:18:58.596
+!MESSAGE  WARN [2016-08-12 20:18:58,582] (ProjectOrganizationPage.java:prepareNextPage:263) - Unable to login: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:19:29.402
+!MESSAGE  WARN [2016-08-12 20:19:29,398] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:19:29.423
+!MESSAGE  WARN [2016-08-12 20:19:29,418] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:19:29.445
+!MESSAGE  WARN [2016-08-12 20:19:29,442] (ProjectController.java:getRemotePackageNames:930) - Unable to get project packages for project 'Apex': Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:19:29.489
+!MESSAGE  WARN [2016-08-12 20:19:29,487] (ProjectOrganizationPage.java:prepareNextPage:263) - Unable to login: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:19:51.061
+!MESSAGE  WARN [2016-08-12 20:19:51,059] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:19:51.070
+!MESSAGE  WARN [2016-08-12 20:19:51,068] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:19:51.078
+!MESSAGE  WARN [2016-08-12 20:19:51,076] (ProjectController.java:getRemotePackageNames:930) - Unable to get project packages for project 'Apex': Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:19:51.122
+!MESSAGE  WARN [2016-08-12 20:19:51,120] (ProjectOrganizationPage.java:prepareNextPage:263) - Unable to login: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:20:24.157
+!MESSAGE  WARN [2016-08-12 20:20:24,155] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:20:24.165
+!MESSAGE  WARN [2016-08-12 20:20:24,163] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:20:24.172
+!MESSAGE  WARN [2016-08-12 20:20:24,170] (ProjectController.java:getRemotePackageNames:930) - Unable to get project packages for project 'apex123': Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:20:24.201
+!MESSAGE  WARN [2016-08-12 20:20:24,200] (ProjectOrganizationPage.java:prepareNextPage:263) - Unable to login: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:20:55.949
+!MESSAGE  WARN [2016-08-12 20:20:55,947] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:20:55.979
+!MESSAGE  WARN [2016-08-12 20:20:55,977] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:20:55.985
+!MESSAGE  WARN [2016-08-12 20:20:55,983] (ProjectController.java:getRemotePackageNames:930) - Unable to get project packages for project 'apex123': Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:20:56.018
+!MESSAGE  WARN [2016-08-12 20:20:56,016] (ProjectOrganizationPage.java:prepareNextPage:263) - Unable to login: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:23:53.463
+!MESSAGE  WARN [2016-08-12 20:23:53,461] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:23:53.512
+!MESSAGE  WARN [2016-08-12 20:23:53,510] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:23:53.520
+!MESSAGE  WARN [2016-08-12 20:23:53,518] (ProjectController.java:getRemotePackageNames:930) - Unable to get project packages for project 'tets2382': Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:23:53.567
+!MESSAGE  WARN [2016-08-12 20:23:53,566] (ProjectOrganizationPage.java:prepareNextPage:263) - Unable to login: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:26:37.109
+!MESSAGE  WARN [2016-08-12 20:26:37,093] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:26:37.149
+!MESSAGE  WARN [2016-08-12 20:26:37,147] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:26:37.157
+!MESSAGE  WARN [2016-08-12 20:26:37,155] (ProjectController.java:getRemotePackageNames:930) - Unable to get project packages for project 'apex123': Invalid username, password, security token; or user locked out.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2016-08-12 20:26:37.193
+!MESSAGE  WARN [2016-08-12 20:26:37,191] (ProjectOrganizationPage.java:prepareNextPage:263) - Unable to login: Invalid username, password, security token; or user locked out.
+
